@@ -1,0 +1,15 @@
+<Alloy>
+	<!-- Main Window -->
+   <Window id="Win" title="ScoreKeeper" platform="android,ios">
+  	
+		<View id="header">
+        	<TextField id="inputField" hintText="Nome Partita: " onReturn="closeKeyboard"></TextField>
+      		<Button id="addButton" onClick="aggiungiPartita">+</Button>
+    	</View>
+    	
+    	<TableView id="gameTable" dataCollection="partita" dataTransform="transformFunction">
+      		<Require src="rowPartita"/>
+    	</TableView>
+    
+    </Window>
+</Alloy>

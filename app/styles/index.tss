@@ -1,0 +1,33 @@
+"#Win": {
+	fullscreen: false,
+	backgroundColor:"#fff",
+	layout: 'vertical',
+	navBarHidden: true,
+	exitOnClose: true
+}
+
+"#header": {
+	top: Alloy.Globals.top,
+	height: "70dp",
+	width: Ti.UI.FILL,
+}
+
+"#inputField":{
+	width: '80%',
+	left: 0,
+	color: '#000',
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	returnKeyType: Ti.UI.RETURNKEY_DONE
+}
+
+"#addButton":{
+	width: '20%',
+	right: 0
+}
+
+"#gameTable": {
+	top: Alloy.Globals.tableTop,
+	bottom: '46dp'
+}
+
+

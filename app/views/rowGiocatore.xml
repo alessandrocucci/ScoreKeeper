@@ -1,0 +1,9 @@
+<Alloy>
+  <TableViewRow id="row">
+    <Label id="nomeGiocatore" text="{name}"/>
+    <Label id="puntiGiocatore" text="{points}"/>
+    <Button id="aggiungi" onClick="aggiungi">+</Button>
+    <Button id="togli" onClick="togli">-</Button>
+    <Button id="remove" onClick="deleteTask">x</Button>
+  </TableViewRow>
+</Alloy>

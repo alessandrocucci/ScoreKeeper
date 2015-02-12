@@ -1,0 +1,43 @@
+"#row": {
+	height: '50dp',
+	focusable: false
+}
+
+"#row[platform=ios]": {
+    selectionStyle:Ti.UI.iPhone.TableViewCellSelectionStyle.NONE
+}
+
+"#nomeGiocatore": {
+  left: '10dp',
+  right: '150dp',
+  height: Ti.UI.SIZE,
+	font: {
+		fontSize: '18dp'
+	}
+}
+
+"#puntiGiocatore": {
+  right: '150dp',
+  height: Ti.UI.SIZE,
+	font: {
+		fontSize: '18dp'
+	}
+}
+
+"#aggiungi": {
+	right: '100dp',
+	height: '50dp',
+	width: '50dp'
+}
+
+"#togli": {
+	right: '50dp',
+	height: '50dp',
+	width: '50dp'
+}
+
+"#remove": {
+	right: 0,
+	height: '50dp',
+	width: '50dp'
+}

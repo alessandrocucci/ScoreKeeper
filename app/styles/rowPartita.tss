@@ -1,0 +1,23 @@
+"#row": {
+	height: '50dp',
+	focusable: false
+}
+
+"#row[platform=ios]": {
+    selectionStyle:Ti.UI.iPhone.TableViewCellSelectionStyle.NONE
+}
+
+"#nomePartita": {
+  left: '10dp',
+  right: '50dp',
+  height: Ti.UI.SIZE,
+	font: {
+		fontSize: '18dp'
+	}
+}
+
+"#remove": {
+	right: 0,
+	height: '50dp',
+	width: '50dp'
+}

@@ -1,0 +1,16 @@
+<Alloy>
+	<Window id="playerWin"  platform="ios, android">
+		<View id="back" platform="ios">
+    		<Button onClick="back">Indietro</Button>
+		</View>
+		<View id="header">
+        	<TextField id="playerField" hintText="Nome Giocatore: " onReturn="closeKeyboard"></TextField>
+      		<Button id="addButton" onClick="aggiungiGiocatore">+</Button>
+    	</View>
+    	
+    	<TableView id="playerTable" dataCollection="giocatore" dataTransform="transformFunction">
+      		<Require src="rowGiocatore"/>
+    	</TableView>
+    	
+	</Window>
+</Alloy>

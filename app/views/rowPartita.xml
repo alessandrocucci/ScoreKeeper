@@ -1,0 +1,6 @@
+<Alloy>
+  <TableViewRow id="row">
+    <Label id="nomePartita" text="{item}" onClick="openGame"/>
+    <Button id="remove" onClick="deleteTask">x</Button>
+  </TableViewRow>
+</Alloy>
