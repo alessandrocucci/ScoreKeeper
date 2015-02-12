@@ -14,6 +14,9 @@ Extra:
  - Creazione di un adapter per la persistenza dei dati con il metodo preferito
 
 Screenshots:
+
 ![](https://raw.githubusercontent.com/alessandrocucci/ScoreKeeper/master/screen1.png)
+
 ![](https://raw.githubusercontent.com/alessandrocucci/ScoreKeeper/master/screen2.png)
+
 ![](https://raw.githubusercontent.com/alessandrocucci/ScoreKeeper/master/screen3.png)
